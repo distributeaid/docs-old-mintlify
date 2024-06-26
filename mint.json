@@ -16,15 +16,9 @@
     }
   },
   "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
+
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
+
   "tabs": [
     {
       "name": "API Reference",
@@ -33,59 +27,163 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "DistributeAid.org",
+      "icon": "browser",
+      "url": "https://distributeaid.org/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/distributeaid"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "pages": [
+          {
+            "group": "Currency Conversion",
+            "pages": [
+              "api-reference/endpoint/financial--currency-conversion/delete-currency-conversions",
+              "api-reference/endpoint/financial--currency-conversion/get-currency-conversions-1",
+              "api-reference/endpoint/financial--currency-conversion/get-currency-conversions",
+              "api-reference/endpoint/financial--currency-conversion/post-currency-conversions",
+              "api-reference/endpoint/financial--currency-conversion/put-currency-conversions"
+            ]
+          },
+          {
+            "group": "Country",
+            "pages": [
+              "api-reference/endpoint/geo--country/delete-countries",
+              "api-reference/endpoint/geo--country/get-countries-1",
+              "api-reference/endpoint/geo--country/get-countries",
+              "api-reference/endpoint/geo--country/post-countries",
+              "api-reference/endpoint/geo--country/put-countries"
+            ]
+          },
+          {
+            "group": "Region",
+            "pages": [
+              "api-reference/endpoint/geo--region/delete-regions",
+              "api-reference/endpoint/geo--region/get-regions-1",
+              "api-reference/endpoint/geo--region/get-regions",
+              "api-reference/endpoint/geo--region/post-regions",
+              "api-reference/endpoint/geo--region/put-regions"
+            ]
+          },
+          {
+            "group": "Subregion",
+            "pages": [
+              "api-reference/endpoint/geo--subregion/delete-subregions",
+              "api-reference/endpoint/geo--subregion/get-subregions-1",
+              "api-reference/endpoint/geo--subregion/get-subregions",
+              "api-reference/endpoint/geo--subregion/post-subregions",
+              "api-reference/endpoint/geo--subregion/put-subregions"
+            ]
+          },
+          {
+            "group": "Needs Assessment: Need",
+            "pages": [
+                "api-reference/endpoint/needs-assessment--need/delete-needs",
+                "api-reference/endpoint/needs-assessment--need/get-needs-1",
+                "api-reference/endpoint/needs-assessment--need/get-needs",
+                "api-reference/endpoint/needs-assessment--need/post-needs",
+                "api-reference/endpoint/needs-assessment--need/put-needs"
+            ]
+          },
+          {
+            "group":  "Needs Assessment: Survey",
+            "pages": [
+              "api-reference/endpoint/needs-assessment--survey/delete-surveys",
+              "api-reference/endpoint/needs-assessment--survey/get-surveys-1",
+              "api-reference/endpoint/needs-assessment--survey/get-surveys",
+              "api-reference/endpoint/needs-assessment--survey/post-surveys",
+              "api-reference/endpoint/needs-assessment--survey/put-surveys"
+            ]
+          },
+          {
+            "group": "Product: Category",
+            "pages": [
+              "api-reference/endpoint/product--category/delete-categories",
+              "api-reference/endpoint/product--category/get-categories-1",
+              "api-reference/endpoint/product--category/get-categories",
+              "api-reference/endpoint/product--category/post-categories",
+              "api-reference/endpoint/product--category/put-categories"
+            ]
+          },
+          {
+            "group": "Product: Item",
+            "pages": [
+              "api-reference/endpoint/product--item/delete-items",
+              "api-reference/endpoint/product--item/get-items-1",
+              "api-reference/endpoint/product--item/get-items",
+              "api-reference/endpoint/product--item/post-items",
+              "api-reference/endpoint/product--item/put-items"
+            ]
+          },
+          {
+          "group": "Team Member",
+          "pages": [
+            "api-reference/endpoint/team--member/delete-members",
+            "api-reference/endpoint/team--member/get-members-1",
+            "api-reference/endpoint/team--member/get-members",
+            "api-reference/endpoint/team--member/post-members",
+            "api-reference/endpoint/team--member/put-members"
+            ]
+        },
+        {
+          "group": "Upload File",
+          "pages": [
+            "api-reference/endpoint/upload--file/delete-uploadfiles",
+            "api-reference/endpoint/upload--file/get-uploadfiles-1",
+            "api-reference/endpoint/upload--file/get-uploadfiles",
+            "api-reference/endpoint/upload--file/post-upload?id=",
+            "api-reference/endpoint/upload--file/post-upload"
+          ]
+        },
+        {
+          "group": "User Permissions: Auth",
+          "pages": [
+            "api-reference/endpoint/users-permissions--auth/confirm-user-email",
+            "api-reference/endpoint/users-permissions--auth/default-callback-from-provider-auth",
+            "api-reference/endpoint/users-permissions--auth/local-login",
+            "api-reference/endpoint/users-permissions--auth/login-with-a-provider",
+            "api-reference/endpoint/users-permissions--auth/register-a-user",
+            "api-reference/endpoint/users-permissions--auth/rest-user-password",
+            "api-reference/endpoint/users-permissions--auth/send-confirmation-email",
+            "api-reference/endpoint/users-permissions--auth/send-rest-password-email",
+            "api-reference/endpoint/users-permissions--auth/update-users-own-password"
+          ]
+        },
+        {
+          "group": "User Permissions: Users & Roles",
+          "pages": [
+            "api-reference/endpoint/users-permissions--users-&-roles/create-a-role",
+            "api-reference/endpoint/users-permissions--users-&-roles/create-a-user",
+            "api-reference/endpoint/users-permissions--users-&-roles/delete-a-user",
+            "api-reference/endpoint/users-permissions--users-&-roles/delete-currency-conversions",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-a-role",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-a-user",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-authenticated-user-info",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-default-generated-permissions",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-list-of-users",
+            "api-reference/endpoint/users-permissions--users-&-roles/get-user-count",
+            "api-reference/endpoint/users-permissions--users-&-roles/list-roles",
+            "api-reference/endpoint/users-permissions--users-&-roles/update-a-role",
+            "api-reference/endpoint/users-permissions--users-&-roles/update-a-user"
+          ]
+        }
+
       ]
     }
+    
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+    "twitter": "https://twitter.com/DistributeAid",
+    "github": "https://github.com/distributeaid",
+    "linkedin": "https://www.linkedin.com/company/distribute-aid"
+  },
+    "openapi": "https://raw.githubusercontent.com/distributeaid/aggregated-public-information/4de27a2b57da333960ac74ee19d03f5282b59e84/src/extensions/documentation/documentation/1.0.0/full_documentation.json"
+
+  
 }
