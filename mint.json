@@ -51,85 +51,105 @@
               "api-reference/endpoint/financial--currency-conversion/put-currency-conversions"
             ]
           },
-          {
-            "group": "Country",
-            "pages": [
-              "api-reference/endpoint/geo--country/delete-countries",
-              "api-reference/endpoint/geo--country/get-countries-1",
-              "api-reference/endpoint/geo--country/get-countries",
-              "api-reference/endpoint/geo--country/post-countries",
-              "api-reference/endpoint/geo--country/put-countries"
-            ]
-          },
-          {
-            "group": "Region",
-            "pages": [
-              "api-reference/endpoint/geo--region/delete-regions",
-              "api-reference/endpoint/geo--region/get-regions-1",
-              "api-reference/endpoint/geo--region/get-regions",
-              "api-reference/endpoint/geo--region/post-regions",
-              "api-reference/endpoint/geo--region/put-regions"
-            ]
-          },
-          {
-            "group": "Subregion",
-            "pages": [
-              "api-reference/endpoint/geo--subregion/delete-subregions",
-              "api-reference/endpoint/geo--subregion/get-subregions-1",
-              "api-reference/endpoint/geo--subregion/get-subregions",
-              "api-reference/endpoint/geo--subregion/post-subregions",
-              "api-reference/endpoint/geo--subregion/put-subregions"
-            ]
-          },
-          {
-            "group": "Needs Assessment: Need",
-            "pages": [
-                "api-reference/endpoint/needs-assessment--need/delete-needs",
-                "api-reference/endpoint/needs-assessment--need/get-needs-1",
-                "api-reference/endpoint/needs-assessment--need/get-needs",
-                "api-reference/endpoint/needs-assessment--need/post-needs",
-                "api-reference/endpoint/needs-assessment--need/put-needs"
-            ]
-          },
-          {
-            "group":  "Needs Assessment: Survey",
-            "pages": [
-              "api-reference/endpoint/needs-assessment--survey/delete-surveys",
-              "api-reference/endpoint/needs-assessment--survey/get-surveys-1",
-              "api-reference/endpoint/needs-assessment--survey/get-surveys",
-              "api-reference/endpoint/needs-assessment--survey/post-surveys",
-              "api-reference/endpoint/needs-assessment--survey/put-surveys"
-            ]
-          },
-          {
-            "group": "Product: Category",
-            "pages": [
-              "api-reference/endpoint/product--category/delete-categories",
-              "api-reference/endpoint/product--category/get-categories-1",
-              "api-reference/endpoint/product--category/get-categories",
-              "api-reference/endpoint/product--category/post-categories",
-              "api-reference/endpoint/product--category/put-categories"
-            ]
-          },
-          {
-            "group": "Product: Item",
-            "pages": [
-              "api-reference/endpoint/product--item/delete-items",
-              "api-reference/endpoint/product--item/get-items-1",
-              "api-reference/endpoint/product--item/get-items",
-              "api-reference/endpoint/product--item/post-items",
-              "api-reference/endpoint/product--item/put-items"
-            ]
-          },
-          {
-          "group": "Team Member",
+         {
+          "group": "Geo",
           "pages": [
-            "api-reference/endpoint/team--member/delete-members",
-            "api-reference/endpoint/team--member/get-members-1",
-            "api-reference/endpoint/team--member/get-members",
-            "api-reference/endpoint/team--member/post-members",
-            "api-reference/endpoint/team--member/put-members"
+            {
+              "group": "Country",
+              "pages": [
+                "api-reference/endpoint/geo--country/delete-countries",
+                "api-reference/endpoint/geo--country/get-countries-1",
+                "api-reference/endpoint/geo--country/get-countries",
+                "api-reference/endpoint/geo--country/post-countries",
+                "api-reference/endpoint/geo--country/put-countries"
+              ]
+            },
+            {
+              "group": "Region",
+              "pages": [
+                "api-reference/endpoint/geo--region/delete-regions",
+                "api-reference/endpoint/geo--region/get-regions-1",
+                "api-reference/endpoint/geo--region/get-regions",
+                "api-reference/endpoint/geo--region/post-regions",
+                "api-reference/endpoint/geo--region/put-regions"
+              ]
+            },
+            {
+              "group": "Subregion",
+              "pages": [
+                "api-reference/endpoint/geo--subregion/delete-subregions",
+                "api-reference/endpoint/geo--subregion/get-subregions-1",
+                "api-reference/endpoint/geo--subregion/get-subregions",
+                "api-reference/endpoint/geo--subregion/post-subregions",
+                "api-reference/endpoint/geo--subregion/put-subregions"
+              ]
+            }
             ]
+          },
+          {
+            "group": "Needs Assessment",
+            "pages": [
+              {
+                "group": "Need",
+                "pages": [
+                  "api-reference/endpoint/needs-assessment--need/delete-needs",
+                  "api-reference/endpoint/needs-assessment--need/get-needs-1",
+                  "api-reference/endpoint/needs-assessment--need/get-needs",
+                  "api-reference/endpoint/needs-assessment--need/post-needs",
+                  "api-reference/endpoint/needs-assessment--need/put-needs"
+              ]
+            },
+            {
+              "group":  "Survey",
+              "pages": [
+                "api-reference/endpoint/needs-assessment--survey/delete-surveys",
+                "api-reference/endpoint/needs-assessment--survey/get-surveys-1",
+                "api-reference/endpoint/needs-assessment--survey/get-surveys",
+                "api-reference/endpoint/needs-assessment--survey/post-surveys",
+                "api-reference/endpoint/needs-assessment--survey/put-surveys"
+              ]
+            }
+            ]
+          },
+          {
+            "group": "Product",
+            "pages": [
+              {
+              "group": "Category",
+              "pages": [
+                "api-reference/endpoint/product--category/delete-categories",
+                "api-reference/endpoint/product--category/get-categories-1",
+                "api-reference/endpoint/product--category/get-categories",
+                "api-reference/endpoint/product--category/post-categories",
+                "api-reference/endpoint/product--category/put-categories"
+              ]
+              },
+            {
+              "group": "Item",
+              "pages": [
+                "api-reference/endpoint/product--item/delete-items",
+                "api-reference/endpoint/product--item/get-items-1",
+                "api-reference/endpoint/product--item/get-items",
+                "api-reference/endpoint/product--item/post-items",
+                "api-reference/endpoint/product--item/put-items"
+              ]
+            }
+            ]
+          },
+          {
+            "group": "Team",
+            "pages": [
+              {
+              "group": "Member",
+              "pages": [
+                "api-reference/endpoint/team--member/delete-members",
+                "api-reference/endpoint/team--member/get-members-1",
+                "api-reference/endpoint/team--member/get-members",
+                "api-reference/endpoint/team--member/post-members",
+                "api-reference/endpoint/team--member/put-members"
+                ]
+            }
+          ]
         },
         {
           "group": "Upload File",
@@ -142,38 +162,42 @@
           ]
         },
         {
-          "group": "User Permissions: Auth",
+          "group": "User Permissions",
           "pages": [
-            "api-reference/endpoint/users-permissions--auth/confirm-user-email",
-            "api-reference/endpoint/users-permissions--auth/default-callback-from-provider-auth",
-            "api-reference/endpoint/users-permissions--auth/local-login",
-            "api-reference/endpoint/users-permissions--auth/login-with-a-provider",
-            "api-reference/endpoint/users-permissions--auth/register-a-user",
-            "api-reference/endpoint/users-permissions--auth/rest-user-password",
-            "api-reference/endpoint/users-permissions--auth/send-confirmation-email",
-            "api-reference/endpoint/users-permissions--auth/send-rest-password-email",
-            "api-reference/endpoint/users-permissions--auth/update-users-own-password"
-          ]
-        },
-        {
-          "group": "User Permissions: Users & Roles",
-          "pages": [
-            "api-reference/endpoint/users-permissions--users-&-roles/create-a-role",
-            "api-reference/endpoint/users-permissions--users-&-roles/create-a-user",
-            "api-reference/endpoint/users-permissions--users-&-roles/delete-a-user",
-            "api-reference/endpoint/users-permissions--users-&-roles/delete-currency-conversions",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-a-role",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-a-user",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-authenticated-user-info",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-default-generated-permissions",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-list-of-users",
-            "api-reference/endpoint/users-permissions--users-&-roles/get-user-count",
-            "api-reference/endpoint/users-permissions--users-&-roles/list-roles",
-            "api-reference/endpoint/users-permissions--users-&-roles/update-a-role",
-            "api-reference/endpoint/users-permissions--users-&-roles/update-a-user"
-          ]
+            {
+            "group": "Auth",
+            "pages": [
+              "api-reference/endpoint/users-permissions--auth/confirm-user-email",
+              "api-reference/endpoint/users-permissions--auth/default-callback-from-provider-auth",
+              "api-reference/endpoint/users-permissions--auth/local-login",
+              "api-reference/endpoint/users-permissions--auth/login-with-a-provider",
+              "api-reference/endpoint/users-permissions--auth/register-a-user",
+              "api-reference/endpoint/users-permissions--auth/rest-user-password",
+              "api-reference/endpoint/users-permissions--auth/send-confirmation-email",
+              "api-reference/endpoint/users-permissions--auth/send-rest-password-email",
+              "api-reference/endpoint/users-permissions--auth/update-users-own-password"
+            ]
+          },
+          {
+            "group": "Users & Roles",
+            "pages": [
+              "api-reference/endpoint/users-permissions--users-&-roles/create-a-role",
+              "api-reference/endpoint/users-permissions--users-&-roles/create-a-user",
+              "api-reference/endpoint/users-permissions--users-&-roles/delete-a-user",
+              "api-reference/endpoint/users-permissions--users-&-roles/delete-currency-conversions",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-a-role",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-a-user",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-authenticated-user-info",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-default-generated-permissions",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-list-of-users",
+              "api-reference/endpoint/users-permissions--users-&-roles/get-user-count",
+              "api-reference/endpoint/users-permissions--users-&-roles/list-roles",
+              "api-reference/endpoint/users-permissions--users-&-roles/update-a-role",
+              "api-reference/endpoint/users-permissions--users-&-roles/update-a-user"
+            ]
+          }
+        ]
         }
-
       ]
     }
     
