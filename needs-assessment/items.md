@@ -1,0 +1,1 @@
+include information here regarding items (possible connection to category, singular item versus plural issues, category issues that currently exist in the data)
