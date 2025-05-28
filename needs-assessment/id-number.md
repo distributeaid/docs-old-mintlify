@@ -1,6 +1,8 @@
 # Strapi id number 
 
-The Strapi id number is a unique id assigned to each entry upon creation. It is usually the first field you will see of each entry line. It's value is different than the document id that is also assigned to each entry in Strapi. When accessing a relation field from a separate collection, this id number is what will be required in order to populate the specific relation field type value in the desired collection (it must be included in the POST method for uploading data).  
+The Strapi id number is a unique id assigned to each entry upon creation. It is usually the first field you will see of each entry line. It's value is different than the document id that is also assigned to each entry in Strapi. When accessing a relation field from a separate collection, this id number is what will be required in order to populate the specific relation field type value in the desired collection (it must be included in the POST method for uploading data).
+
+![Image noting the id number in a Strapi collection](../images/strapi_id-number.png)
 
 For example:
 * the **category** for a specifc item in the _Product.Item_ collection will exist in the _Product.Category_ collection.
