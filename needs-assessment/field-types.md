@@ -1,4 +1,4 @@
-## Strapi content-type fields of note in the needs assessment
+# Strapi content-type fields of note in the needs assessment
 Information regarding specific content-type fields used in Strapi relating to the needs assessment could go here.
 
 Specifically looking at:
@@ -14,5 +14,5 @@ Specifically looking at:
 - fields that exist as a relation to another content-type (that must be a [collection](./collections.md) type). For example:
     * the **item** for a specifc need in the _NeedsAssessment.Need_ collection will exist in the _Product.Item_ collection and, therefore, this particular field becomes a "Relation with _Product.Item_". 
     
-    It is these relational fields that will need the accompanying [id-number](./id-number.md) from the other noted collection in the data transfer.
+    It is these relational fields that will need the accompanying [id number](./id-number.md) from the other noted collection in the data transfer.
 
