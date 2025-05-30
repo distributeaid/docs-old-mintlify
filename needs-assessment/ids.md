@@ -1,6 +1,6 @@
 Created this file to add info relating to ids and if there needs to be a distinction between id and id number (or if document id comes into play here).
 
-There is a distinct difference between the Strapi _id number_(seen as id) and the _document id_, as noted in the image below:
+There is a distinct difference between the Strapi _id number_ (seen as id) and the _document id_, as noted in the image below: <br>
 ![Image of the Strapi id number and document id in json data](../images/strapi_document-id.png)
 
 Will need to discuss different id references to distinguish them from each other and what ids we use where
