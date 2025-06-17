@@ -16,3 +16,5 @@ Specifically looking at:
     
     It is these relational fields that will need the accompanying [id number](./id-number.md) from the other noted collection in the data transfer.
 
+    May want to include how to populate a relation field-type in an API call.
+

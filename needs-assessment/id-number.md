@@ -9,4 +9,4 @@ For example:
 In order to populate the category field in the item collection, you must first get the id number for that category from the _Product.Category_ collection.
 Then use that id number in the GET and POST method of the scripts in order to check if the item with that category already exists, and if not, create the new item that populates the category field using that id number.
 
-Note: It looks like using this id number in API calls is going to be phased out and it is strongly encouraged to start using the [document id](./ids.md) in API calls with Strapi 5 and beyond. ([Strapi documentation](https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes/use-document-id))
+➡️ **Note**: It looks like using this id number in API calls is going to be phased out and it is strongly encouraged to start using the [document id](./ids.md) in API calls with Strapi 5 and beyond. ([Strapi documentation](https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes/use-document-id))
