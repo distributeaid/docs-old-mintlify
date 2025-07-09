@@ -33,11 +33,11 @@ Note: Navigate to Gitpod Workspaces in your browser and pin the relevant workspa
 <!-- TODO: is this the same everywhere? -->
 If this is your first time pushing, you need to set up your branch and push it to GitHub first.
 
-Create a new branch: ```git checkout -b <repo>/<branch name>```
+Create a new branch: ```git checkout -b <branch name>```
 
 Make your changes
 
-Push to GitHub: ```git push --set-upstream origin docs/<branch name>```
+Push to GitHub: ```git push --set-upstream origin <branch name>```
 
 The first time you’re doing this, you’ll have to go through authorisation (example from VSCode):
 ![screenshot shows authorisation dialogue from VSCode: “An operation requires additional permissions: public_repo. Please grant permissions and try again. Source: Gitpod Remote”](../images/gitpod-push-auth.png)
