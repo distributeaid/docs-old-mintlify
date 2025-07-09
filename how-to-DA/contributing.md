@@ -1,5 +1,5 @@
 # How to get started contributing to Distribute Aid
-We’re not currently set up for async-only contributions so if you’re interested in joining, we encourage you to get in touch with our tech team lead at [tech@distributeaid.org](tech@distributeaid.org) to get properly onboarded.
+We’re not currently set up for async-only contributions so if you’re interested in joining, we encourage you to get in touch with our tech team lead at <tech@distributeaid.org> to get properly onboarded.
 
 A lot of our team communication happens in virtual meetings: we have a monthly sprint meeting and two tech hangs a week. None of these are mandatory but they allow us to pair up on issues, unblock each other, and find the right people to pick up issues. Any other collaboration usually happens via Slack.
 
@@ -13,7 +13,7 @@ Having a team structure in place allows us to foster both collaboration and indi
 
 We offer periodic one-on-ones with our tech lead to our regular contributors to ensure they’re feeling adequately challenged in their work at Distribute Aid and to make sure they get the chance to grow as they wish. Of course we’re also happy to write a reference for regular contributors as needed.
 
-If this sounds interesting to you, [get in touch](tech@distributeaid.org) and tell us a bit about yourself.
+If this sounds interesting to you, [get in touch](mailto:tech@distributeaid.org) and tell us a bit about yourself.
 
 # Relevant repos
 ## Frontend: Next website v2
@@ -32,7 +32,7 @@ Technologies used
 * [Vercel](https://vercel.com/home) - Production and deployment
 
 ### Looking for frontend devs!
-We’re currently looking for a frontend dev (or two) to help create a dedicated landing page for our [HRT Toolkit project](https://www.omprakash.org/global/distribute-aid/crowdfund/hrt---harm-reduction-toolkit). You’d be teaming up with one of our designers, our technical program manager, and the project lead of the HRT Toolkit project for a tighter collaboration to focus on creating the landing page (estimated duration for this project is approximately three months). If that sounds like you, please get in touch with us at [tech@distributeaid.org](tech@distributeaid.org).
+We’re currently looking for a frontend dev (or two) to help create a dedicated landing page for our [HRT Toolkit project](https://www.omprakash.org/global/distribute-aid/crowdfund/hrt---harm-reduction-toolkit). You’d be teaming up with one of our designers, our technical program manager, and the project lead of the HRT Toolkit project for a tighter collaboration to focus on creating the landing page (estimated duration for this project is approximately three months). If that sounds like you, please get in touch with us at <tech@distributeaid.org>.
 
 ## Backend: Strapi
 [Backend repo](https://github.com/distributeaid/aggregated-public-information)
