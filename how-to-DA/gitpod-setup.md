@@ -1,10 +1,9 @@
 # Setting up Gitpod
-Gitpod is relevant for all our repositories. If you’re looking for more guidance for the technologies used in each repo, please check out that repo’s documentation.
+This is a guide to setting up Gitpod Classic. (Please note: Gitpod is implementing some major changes in September 2025 and we’ll re-evaluate our use of the platform when the time comes.) Currently, we use Gitpod to make sure all our devs are working with standardised development environments. No need to clone repos and make sure you have all dependencies installed. Instead, you can just launch a repo through Gitpod. This makes troubleshooting much easier because it removes the variabilities of each developer’s machine.
+
+If you’re looking for more guidance for the technologies used in each repo, please check out that repo’s documentation.
 
 We use Gitpod to make sure everyone is working in the same preconfigured environment. Yes, you could of course download the repo and work on it on your machine but we strongly encourage using Gitpod instead. It’s straightforward to install and makes it easier to help each other out when we get stuck. 
-
-<!--TODO: check with Taylor if this is correct -->
-All our projects should automatically be on Distribute Aid’s 500 credits/50 hours sponsored plan. If you run into any issues with that, please reach out on Slack.
 
 ## Initial Gitpod setup
 1. Sign up for an account (using Github)
@@ -12,7 +11,7 @@ All our projects should automatically be on Distribute Aid’s 500 credits/50 ho
     * Continue with 10h a month
     * Select your preferred editor
     * Close tab again
-2. Navigate to the repo you want to work on, go to the contributing.md file and click on the “open in Gitpod” button (leave the class set to “Standard”); you can also select other Distribute Aid repos in the dropdown
+2. Go back to Github and navigate to the repo you want to work on, go to the contributing.md file and click on the “open in Gitpod” button (leave the class set to “Standard”); you can also select other Distribute Aid repos in the dropdown
 <!-- TODO: add screenshot -->
 3. Hit enter and wait while your environment is being set up
 
@@ -40,6 +39,7 @@ Make your changes
 Push to GitHub: ```git push --set-upstream origin <branch name>```
 
 The first time you’re doing this, you’ll have to go through authorisation (example from VSCode):
+
 ![screenshot shows authorisation dialogue from VSCode: “An operation requires additional permissions: public_repo. Please grant permissions and try again. Source: Gitpod Remote”](../images/gitpod-push-auth.png)
 
 Do ```git push``` again
@@ -48,5 +48,5 @@ Then you should have the prompt for the PR in the repo on GitHub:
 
 ![Screenshot from GitHub showing that docs/contributingMD had recent pushes 4 minutes ago and prompting to compare and pull request](../images/gitpod-new-branch-PR.png)
 
-## Helpful commands
+<!-- ## Helpful commands -->
 
