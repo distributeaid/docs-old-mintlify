@@ -13,7 +13,7 @@ Having a team structure in place allows us to foster both collaboration and indi
 
 We offer periodic one-on-ones with our tech lead to our regular contributors to ensure they’re feeling adequately challenged in their work at Distribute Aid and to make sure they get the chance to grow as they wish. Of course we’re also happy to write a reference for regular contributors as needed.
 
-If all that sounds interesting to you, [get in touch](tech@distributeaid.org) and tell us a bit about yourself.
+If this sounds interesting to you, [get in touch](tech@distributeaid.org) and tell us a bit about yourself.
 
 # Relevant repos
 ## Frontend: Next website v2
@@ -32,7 +32,7 @@ Technologies used
 * [Vercel](https://vercel.com/home) - Production and deployment
 
 ### Looking for frontend devs!
-We’re currently looking for a frontend dev (or two) to help create a dedicated landing page for our [HRT Toolkit project](https://www.omprakash.org/global/distribute-aid/crowdfund/hrt---harm-reduction-toolkit). You’d be teaming up with one of our designers, our technical program manager, and the project lead of the HRT Toolkit project for a tighter collaboration for about a quarter to focus on creating the landing page. If that sounds like you, please get in touch with us at [tech@distributeaid.org](tech@distributeaid.org).
+We’re currently looking for a frontend dev (or two) to help create a dedicated landing page for our [HRT Toolkit project](https://www.omprakash.org/global/distribute-aid/crowdfund/hrt---harm-reduction-toolkit). You’d be teaming up with one of our designers, our technical program manager, and the project lead of the HRT Toolkit project for a tighter collaboration to focus on creating the landing page (estimated duration for this project is approximately three months). If that sounds like you, please get in touch with us at [tech@distributeaid.org](tech@distributeaid.org).
 
 ## Backend: Strapi
 [Backend repo](https://github.com/distributeaid/aggregated-public-information)
