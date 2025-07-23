@@ -42,7 +42,7 @@ The first time you’re doing this, you’ll have to go through authorisation (e
 
 ![screenshot shows authorisation dialogue from VSCode: “An operation requires additional permissions: public_repo. Please grant permissions and try again. Source: Gitpod Remote”](../images/gitpod-push-auth.png)
 
-Do ```git push``` again
+Do ```git push --set-upstream origin <branch name>``` again
 
 Then you should have the prompt for the PR in the repo on GitHub:
 
