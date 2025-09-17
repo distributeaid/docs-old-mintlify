@@ -1,1 +1,0 @@
-add information here regarding the different collections that currently exist in Strapi

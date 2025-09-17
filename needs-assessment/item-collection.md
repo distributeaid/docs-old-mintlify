@@ -1,1 +1,0 @@
-Provide information here about the item collection: content-field types, field types that automatically populate, etc.
