@@ -1,1 +1,0 @@
-Provide information here about the survey collection: content-field types, field types that automatically populate, etc.
